@@ -1,3 +1,28 @@
+AiFxApp/README.md
+👋 Hi, I’m Terence@AiFx - Web, App and SaaS Developer
+👀 I’m interested in how to build web/mobile apps and SaaS platforms
+🌱 I’m currently using Laravel, Visual Studio, Docker, Linux, Git, Bootstrap, Tailwinds HTML, CSS, PHP, MySQL...etc etc
+💞️ I’m enjoy the challenges and growth as each day comes
+
+
+Follow on Facebook: AIFX on Facebook <br>
+<hr>
+
+## About This Build
+
+* Nutshell
+- TALL stack
+- Webite with Backend Admin
+
+# Home Page (notes about tasks)
+
+* First Block: Build:
+- Multi selector `All`| `This` | `That` | `Those`
+-- What will I need?
+
+More to come...
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
