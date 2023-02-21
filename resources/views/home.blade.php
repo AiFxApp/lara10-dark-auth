@@ -187,7 +187,7 @@ More info: https://beyondco.de/blog/tailwind-jit-compiler-via-cdn
 <!-- More components -->
 <div x-show="open" class="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60" x-data="{ open: true }">
     <div class="bg-gray-800 text-gray-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
-        <div>👉 <a class="hover:underline ml-1" href="https://cruip.com/?ref=codepen-cruip-blog-post-hover" target="_blank">More components on Cruip.com</a></div>
+        <div>👉 <a class="hover:underline ml-1" href="https://github.com/AiFxApp" target="_blank">View Us on Github</a></div>
         <button class="text-gray-500 hover:text-gray-400 ml-5" @click="open = false">
             <span class="sr-only">Close</span>
             <svg class="w-4 h-4 flex-shrink-0 fill-current" viewBox="0 0 16 16">
