@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AIFX | v0.0.1 </title>
+    <title>MetaData | v0.0.1 </title>
 
     <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;📿&lt;/text&gt;&lt;/svg&gt;">
 
@@ -16,7 +16,211 @@ More info: https://beyondco.de/blog/tailwind-jit-compiler-via-cdn
 
 </head>
 <body>
+
+
+        <div class="relative w-full h-full pb-10">
+            <div class="hidden md:block">
+                <img class="absolute bg-cover bg-center w-full h-full inset-0" src="{{ asset('aifx/img/home/block1 bg - aifx 2023.png') }}"  alt="" />
+            </div>
+            <nav class="lg:hidden relative z-50">
+                <div class="flex py-2 justify-between items-center px-4">
+                    <!--<div>
+                        <img src="{{ asset('aifx/img/logo/metaData_logo_temp_aifx.png') }}" alt="logo" />
+                    </div>-->
+                    <div class="logo ">
+                        <!-- Uncomment below if you prefer to use Wording - AiFx -->
+                        <!--<h1><a href="/">AiFx</a></h1>-->
+                        <!-- Uncomment below if you prefer to use an image logo - AiFx -->
+                        <a href="/"><img src="{{ asset ('aifx/img/home/logo/metaData_logo_temp_aifx.png') }}" alt="" class="img-fluid mx-auto"  /></a>
+                    </div>
+                    <!--<a href="/" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+                        <img src="{{ asset('aifx/img/home/logo/metaData_logo_temp_aifx.png') }}" width="35" alt="siteName">
+                        <h2 class="m-0 p-1 text-primary">MetatData</h2>
+                    </a>-->
+                    <div class="visible flex items-center">
+                        <button id="open" onclick="MenuHandler(true)" class="focus:outline-none focus:ring-2 focus:ring-black" >
+                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/large_typography_with_gradient_and_glass_effect_Svg2.svg" alt="menu" />
+                        </button>
+                        <ul id="list" class="hidden p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-24">
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
+                                <a href="javascript: void(0)" class="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+                                    <span class="font-bold">Home</span>
+                                </a>
+                            </li>
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+                                <a href="javascript: void(0)" class="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+                                    <span class="font-bold">About Us</span>
+                                </a>
+                            </li>
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
+                                <a href="javascript: void(0)" class="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+                                    <span class="font-bold">Pricing</span>
+                                </a>
+                            </li>
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+                                <a href="javascript: void(0)" class="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+                                    <span class="font-bold">Resources</span>
+                                </a>
+                            </li>
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+                                <a href="javascript: void(0)" class="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+                                    <span class="font-bold">Sign In</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="xl:hidden">
+                            <button id="close" class="hidden close-m-menu focus:ring-2 focus:ring-black focus:outline-none" onclick="MenuHandler(false)">
+                                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/large_typography_with_gradient_and_glass_effect_Svg3.svg" alt="close" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="f-f-l relative z-10">
+                <div class="relative z-10 mx-auto container hidden w-full px-4 xl:px-0 lg:flex justify-between items-center py-11">
+                    <div>
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/large_typography_with_gradient_and_glass_effect_Svg4.svg" alt="logo" />
+                    </div>
+                    <div class="flex items-center text-white text-base font-medium">
+                        <ul class="flex items-center pr-3 xl:pr-12">
+                            <li class="cursor-pointer hover:text-gray-300 ease-in">
+                                <a href="javascript:void(0)" class="focus:outline-none focus:ring-2 focus:ring-white">Home</a>
+                            </li>
+                            <li class="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
+                                <a href="javascript:void(0)" class="focus:outline-none focus:ring-2 focus:ring-white">About Us</a>
+                            </li>
+                            <li class="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
+                                <a href="javascript:void(0)" class="focus:outline-none focus:ring-2 focus:ring-white">Pricing</a>
+                            </li>
+                            <li class="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
+                                <a href="javascript:void(0)" class="focus:outline-none focus:ring-2 focus:ring-white">Resources</a>
+                            </li>
+                        </ul>
+                        <button class="px-6 py-3 bg-indigo-400 hover:bg-indigo-500 text-white text-base font-medium rounded-lg flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
+                            Sign In
+                            <img class="ml-4" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/large_typography_with_gradient_and_glass_effect_Svg5.svg" alt="arrow" />
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="relative px-4 xl:px-0 container mx-auto md:flex items-center gap-8">
+                <div class="text-color w-full md:w-1/3 pt-16 lg:pt-32 xl:pt-12">
+                    <h1 class="text-4xl md:text-4xl lg:text-6xl w-11/12 lg:w-11/12 xl:w-full xl:text-6xl text-gray-900 font-extrabold f-f-l">Build, review and ship with ease</h1>
+                    <div class="f-f-r text-base lg:text-base pb-20 sm:pb-0 pt-10 xl:pt-6">
+                        <h2>The next big thing starts here. Start building with Prodify and be the first to market with a product that is ready to take on the competition and delight your customers</h2>
+                    </div>
+                    <div class="lg:flex">
+                    <button class="hidden md:block hover:opacity-90 text-base w-full xl:text-base xl:w-6/12 mt-4 xl:mt-8 f-f-r py-4  bg-indigo-700 text-white font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 rounded-lg">Start building now</button>
+                    <button class="hidden md:block hover:opacity-90 text-base w-full xl:text-base xl:w-4/12 lg:ml-2 xl:ml-2 mt-4 xl:mt-8 f-f-r py-4  bg-indigo-200 text-indigo-600 font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 rounded-lg">Try it out</button>
+                    </div>
+                </div>
+                <img class="w-full mt-8 md:mt-0 object-fill md:w-2/3 md:-ml-4 lg:-ml-4 xl:ml-0" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Graphic.png" alt="sample page" role="img" />
+                 <button class="md:hidden hover:opacity-90 text-base w-full xl:text-base xl:w-6/12 mt-4 xl:mt-8 f-f-r py-4  bg-indigo-700 text-white font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 rounded-lg">Start building now</button>
+                 <button class="md:hidden hover:opacity-90 text-base w-full xl:text-base xl:w-4/12 xl:ml-2 mt-4 xl:mt-8 f-f-r py-4  bg-indigo-200 text-indigo-600 font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 rounded-lg">Try it out</button>
+            </div>
+        </div>
+        <style>
+            .top-100 {
+                animation: slideDown 0.5s ease-in-out;
+            }
+
+            @keyframes slideDown {
+                0% {
+                    top: -50%;
+                }
+
+                100% {
+                    top: 0;
+                }
+            }
+
+            * {
+                outline: none !important;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+        </style>
+        <script>
+            const MenuHandler = (flag) => {
+                if (flag) {
+                    document.getElementById("list").classList.add("top-100");
+                    document.getElementById("list").classList.remove("hidden");
+                    document.getElementById("close").classList.remove("hidden");
+                    document.getElementById("open").classList.add("hidden");
+                } else {
+                    document.getElementById("list").classList.remove("top-100");
+                    document.getElementById("list").classList.add("hidden");
+                    document.getElementById("close").classList.add("hidden");
+                    document.getElementById("open").classList.remove("hidden");
+                }
+            };
+        </script>
+
+
+
     <section class="relative w-full px-8 bg-gray-800 body-font" data-tails-scripts="//unpkg.com/alpinejs">
+
+        <div class="2xl:container 2xl:mx-auto">
+        <div class="bg-white dark:bg-gray-800 rounded shadow-lg py-5 px-7">
+            <nav class="flex justify-between">
+            <div class="flex items-center space-x-3 lg:pr-16 pr-6">
+                <img class="cursor-pointer dark:bg-white p-1 rounded-full" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/header-1-svg1.svg" alt="circle" />
+                <h2 class="font-normal text-2xl leading-6 text-gray-800 dark:text-white">OvonRueden</h2>
+            </div>
+
+            <!-- For medium and plus sized devices -->
+            <ul class="hidden md:flex flex-auto space-x-2">
+                <li onclick="selected()" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white bg-indigo-600 cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded">Collections</li>
+                <li onclick="selected()" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-gray-600 border border-white bg-gray-50 cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded">Arts</li>
+                <li onclick="selected()" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-gray-600 border border-white bg-gray-50 cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded">Space</li>
+                <li onclick="selected()" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-gray-600 border border-white bg-gray-50 cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded">Game</li>
+                <li onclick="selected()" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-gray-600 border border-white bg-gray-50 cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded">Utility</li>
+                <li onclick="selected()" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-gray-600 border border-white bg-gray-50 cursor-pointer px-3 py-2.5 font-normal text-xs leading-3 shadow-md rounded">Cards</li>
+            </ul>
+            <div class="flex space-x-5 justify-center items-center pl-2">
+                <div class="relative dark:bg-white rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
+                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/header-1-svg2.svg" alt="chat" />
+                <div class="animate-ping w-1.5 h-1.5 bg-indigo-700 rounded-full absolute -top-1 -right-1 m-auto duration-200"></div>
+                <div class="w-1.5 h-1.5 bg-indigo-700 rounded-full absolute -top-1 -right-1 m-auto shadow-lg"></div>
+                </div>
+
+                <img class="cursor-pointer dark:bg-white rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/header-1-svg3.svg" alt="bell" />
+            </div>
+            </nav>
+            <!-- for smaller devcies -->
+
+            <div class="block md:hidden w-full mt-5">
+            <div onclick="selectNew()" class="cursor-pointer px-4 py-3 text-white bg-indigo-600 rounded flex justify-between items-center w-full">
+                <div class="flex space-x-2">
+                <span id="s1" class="font-semibold text-sm leading-3 hidden">Selected: </span>
+                <p id="textClicked" class="font-normal text-sm leading-3 focus:outline-none hover:bg-gray-800 duration-100 cursor-pointer">Collections</p>
+                </div>
+                <img id="ArrowSVG" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/header-1-svg4.svg" alt="down arrow" class="rotate-180 transform" />
+            </div>
+            <div class="relative">
+                <ul id="list" class="hidden font-normal text-base leading-4 absolute top-2 w-full rounded shadow-md z-20">
+                <li onclick="selectedSmall()" class="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal focus:text-black">Arts</li>
+                <li onclick="selectedSmall()" class="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal focus:text-black">Space</li>
+                <li onclick="selectedSmall()" class="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal focus:text-black">Game</li>
+                <li onclick="selectedSmall()" class="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal focus:text-black">Utility</li>
+                <li onclick="selectedSmall()" class="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal focus:text-black">Cards</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+<script>
+
+</script>
+
+    <section class="relative w-full px-8 bg-gray-800 body-font" data-tails-scripts="//unpkg.com/alpinejs">
+
+
+
+
     <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
         <a href="/" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">TruMeta</a>
 
