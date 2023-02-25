@@ -52,8 +52,8 @@ return new class extends Migration
   COMPLETED
 
 5. Create a new route in `routes/web.php` to handle the subscribe form submission:
-  ```
-  `Route::post('/subscribe', 'SubscriberController@store')->name('subscribe');`
+  ```php
+  Route::post('/subscribe', 'SubscriberController@store')->name('subscribe');
   ```
 6. Create a new controller named `SubscriberController` with a `store` method to handle the form submission:
 
@@ -124,4 +124,14 @@ I did this:
   Route::get('/subscribe', function () { return view('subscribe'); })->name('subscribe.form');
 ```  
   This will create a new route to display the `subscribe.blade.php` view file.
+
+# Error was the syntax in `web.php`
+
+ 
+```php
+// OLD ->
+// Route::post('/subscribe', 'SubscriberController@store')->name('subscribe');
+// NEW ->
+Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');
+```
 
