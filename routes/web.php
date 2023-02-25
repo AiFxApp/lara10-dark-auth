@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SubscriberController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// OLD ->
+// Route::post('/subscribe', 'SubscriberController@store')->name('subscribe');
+// NEW ->
+Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');
+Route::get('/subscribe', function () {
+    return view('subscribe');
+})->name('subscribe.form');
 
 
 Route::get('/dashboard', function () {
