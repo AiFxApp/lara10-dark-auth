@@ -5,6 +5,8 @@
 
 Follow on Facebook:<a href="https://facebook.com/aifx.intel"> AIFX on Facebook </a> <br>
 <hr>
+![Dev Ops - AiFx](https://user-images.githubusercontent.com/89227642/221431420-70d72976-a7d4-46cc-8d7b-9628b68b3afa.png)
+
 
 ## About This Build
 
