@@ -145,3 +145,5 @@ I did this:
 Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');
 ```
 # Need to look at duplicate entries
+
+Thinking further down the code path (development) -- there will be various subscribe type campaigns so having a user return to subscribe to another marketing direction and then simply update the user choice (email being the constant)... 
