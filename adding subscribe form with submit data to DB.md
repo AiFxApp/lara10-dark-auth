@@ -1,3 +1,13 @@
+# Page View before submit
+
+![image](https://user-images.githubusercontent.com/89227642/221428448-977162f5-689d-4128-8cc0-d3fa59de037d.png)
+
+# Page View after submit
+
+![image](https://user-images.githubusercontent.com/89227642/221428537-a21aa503-ce4e-4aaa-9f34-6b03f51c410b.png)
+
+
+
 To create a subscribe form in Laravel that submits data to a database, you can follow these steps:
 
 1. Create a new Laravel project or open an existing project.
