@@ -5,22 +5,15 @@ AiFxApp/README.md
 💞️ I’m enjoy the challenges and growth as each day comes
 
 
-Follow on Facebook: AIFX on Facebook <br>
+Follow on Facebook:<a href="https://facebook.com/aifx.intel"> AIFX on Facebook </a> <br>
 <hr>
 
 ## About This Build
 
-* Nutshell
-- TALL stack
-- Webite with Backend Admin
+Laravel 10 - Dark Theme Option - Admin Dash
 
-# Home Page (notes about tasks)
-
-* First Block: Build:
-- Multi selector `All`| `This` | `That` | `Those`
--- What will I need?
-
-More to come...
+Topics
+`cms` `frontend-web` `laravel-framework` `admin-dashboard` `backend-as-a-service` `backend-for-frontend` `tailwindcss` `vitejs`
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
