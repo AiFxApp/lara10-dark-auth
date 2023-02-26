@@ -1,9 +1,7 @@
-AiFxApp/README.md
-👋 Hi, I’m Terence@AiFx - Web, App and SaaS Developer
-👀 I’m interested in how to build web/mobile apps and SaaS platforms
-🌱 I’m currently using Laravel, Visual Studio, Docker, Linux, Git, Bootstrap, Tailwinds HTML, CSS, PHP, MySQL...etc etc
-💞️ I’m enjoy the challenges and growth as each day comes
-
+👋 Hi, I’m Terence@AiFx - Web, App and SaaS Developer <br>
+👀 I’m interested in how to build web/mobile apps and SaaS platforms <br>
+🌱 I’m currently using Laravel, Visual Studio, Docker, Linux, Git, Bootstrap, Tailwinds HTML, CSS, PHP, MySQL...etc etc <br>
+💞️ I’m enjoy the challenges and growth as each day comes <br>
 
 Follow on Facebook:<a href="https://facebook.com/aifx.intel"> AIFX on Facebook </a> <br>
 <hr>
