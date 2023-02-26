@@ -6,7 +6,7 @@
 Follow on Facebook:<a href="https://facebook.com/aifx.intel"> AIFX on Facebook </a> <br>
 <hr>
 
-<img src="https://user-images.githubusercontent.com/89227642/221431420-70d72976-a7d4-46cc-8d7b-9628b68b3afa.png" width="400" alt="AiFx"></a></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/89227642/221431420-70d72976-a7d4-46cc-8d7b-9628b68b3afa.png" width="400" alt="AiFx"></a></p>
 
 ## About This Build
 
