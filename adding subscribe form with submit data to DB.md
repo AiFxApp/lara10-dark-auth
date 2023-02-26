@@ -144,4 +144,4 @@ I did this:
 // NEW ->
 Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');
 ```
-
+# Need to look at duplicate entries
