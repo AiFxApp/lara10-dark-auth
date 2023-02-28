@@ -11,10 +11,14 @@ Follow on Facebook:<a href="https://facebook.com/aifx.intel"> AIFX on Facebook <
 ## About This Build
 
 Laravel 10 - Dark Theme Option - Admin Dash
-
-Topics
+<br>
 `cms` `frontend-web` `laravel-framework` `admin-dashboard` `backend-as-a-service` `backend-for-frontend` `tailwindcss` `vitejs`
+<br>
+# What I have added to project o far...
+1. Subcrbire Form & Submit to DB - `Completed` --> (working on view table in admin)
+![image](https://user-images.githubusercontent.com/89227642/221970102-e98c0a87-ee1c-4abe-a221-bc809309168a.png)
 
+2. CRUD for Posts with feature image upload - `Completed` --> working<br>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
