@@ -12,7 +12,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/main.css', 'resources/js/app.js'])
     </head>
 
 
@@ -27,15 +27,32 @@
             class="min-h-screen bg-gray-100 dark:bg-gray-900">
 
             @include('layouts.navigation')
-            
-            <!-- Page Heading -->
+
+                <!-- Page Heading aiMeta NEW-->
+                @if (isset($header))
+                    <header class="bg-white dark:bg-gray-800 shadow">
+                        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                            {{ $header }}
+
+                            {{-- check if there is a notif.success flash session --}}
+                            @if (Session::has('notif.success'))
+                            <div class="bg-blue-300 mt-2 p-4">
+                                {{-- if it's there then print the notification --}}
+                                <span class="text-white">{{ Session::get('notif.success') }}</span>
+                            </div>
+                            @endif
+                        </div>
+                    </header>
+                @endif
+
+            <!-- Page Heading - OLD
             @if (isset($header))
                 <header class="bg-white dark:bg-gray-800 shadow">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
                 </header>
-            @endif
+            @endif -->
 
             <!-- Page Content -->
             <main class="bg-gray-100 dark:bg-gray-800">
